@@ -7,7 +7,7 @@ Subsystems provide a convenient way to tie functionality to a given object with 
 I figured since the Player State persists through the entire session and is replicated, it would be handy to have a way of attaching stuff to it without cluttering up the main class too much.
 <b>Be mindful that subsystems introduce some overhead. Always weigh the pros of decoupling your code from the Player State class with the cons of having an additional object hanging around</b>
 
-#Quickstart guide
+# Quickstart guide
 1. Download the repo
 2. Move the PlayerStateSubsystem folder into [YourProject]/Plugins folder
 3. Launch editor
