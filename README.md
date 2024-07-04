@@ -14,6 +14,7 @@ I figured since the Player State persists through the entire session and is repl
 # Quickstart guide
 1. Download the repo
 2. Move the PlayerStateSubsystem folder into [YourProject]/Plugins folder
-3. Launch editor
-4. In your <b>Game Mode</b>, make sure the <b>Player State</b> is set to <b>PlayerState_WithSubsystem</b>, or optionally subclass this class to implement your own functionality.
-5. To create a Player State Subsystem, simply create a new class that inherits from <b>PlayerStateSubsystem</b>.
+3. Set the <i>Installed</i> property in the .uplugin file to <b>true</b>
+4. Launch editor
+5. In your <b>Game Mode</b>, make sure the <b>Player State</b> is set to <b>PlayerState_WithSubsystem</b>, or optionally subclass this class to implement your own functionality.
+6. To create a Player State Subsystem, simply create a new class that inherits from <b>PlayerStateSubsystem</b>.
