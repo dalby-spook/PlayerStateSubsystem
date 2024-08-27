@@ -1,5 +1,6 @@
 # PlayerStateSubsystem
 Note: this plugin currently only works in single-player mode.
+
 This plugin is an extension of Unreal Engine's native Subsystem class.
 
 If you're not familiar with subsystems, this is a good explainer from Epic Games.
